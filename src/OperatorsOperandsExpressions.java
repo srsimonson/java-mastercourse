@@ -14,7 +14,14 @@ public class OperatorsOperandsExpressions {
         System.out.println("r/ :" + result);
         // remainder AKA modulus operand
         result = result % 3;
-        System.out.println("%"+result);
-
+        System.out.println("% "+result);
+        result ++;
+        System.out.println(result);
+        result --;
+        System.out.println(result);
+        System.out.println(result += 3);
+        System.out.println(result *= 10);
+        System.out.println(result ++); // this doesn't work for some reason
+        System.out.println(result /= 2);
     }
 }
