@@ -1,7 +1,7 @@
 public class ByteShortLong {
     public static void main(String[] args) {
         
-        int myValue = 10000;
+        // int myValue = 10000;
 
         int myMinIntValue = Integer.MIN_VALUE;
         int myMaxIntValue = Integer.MAX_VALUE;
@@ -9,7 +9,7 @@ public class ByteShortLong {
         System.out.println("Integer Maximum Value = " + myMaxIntValue);
         System.out.println("Bustem Max value = " + (myMaxIntValue + 1));
 
-        int myMaxIntTest = 2_147_483_647;
+        // int myMaxIntTest = 2_147_483_647;
 
         byte myMinByteValue = Byte.MIN_VALUE;
         byte myMaxByteValue = Byte.MAX_VALUE;
@@ -21,8 +21,8 @@ public class ByteShortLong {
         System.out.println("Short Min = " + myMinShortValue);
         System.out.println("Short Max = " + myMaxShortValue);
 
-        long myLongValue = 100L;
-        long myMinLongValue = Long.MIN_VALUE;
+        // long myLongValue = 100L;
+        // long myMinLongValue = Long.MIN_VALUE;
         long myMaxLongValue = Long.MAX_VALUE;
         System.out.println("Long Min = " + myMaxLongValue);
         System.out.println("Long Max = " + myMaxLongValue);
